@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b1e32299b4f546afa6cf3bde174cce0, type: 3}
+  m_Name: DataLevel5
+  m_EditorClassIdentifier: 
+  floors:
+  - floorName: Floor 1
+    floorSprite: {fileID: 21300000, guid: f447f92aed94d4c40ba00df13f1cdb29, type: 3}
+    isLeftFloor: 1
+    objects:
+    - type: 5
+    - type: 4
+    - type: 3
+    - type: 4
+  - floorName: Floor 2
+    floorSprite: {fileID: 21300000, guid: f447f92aed94d4c40ba00df13f1cdb29, type: 3}
+    isLeftFloor: 1
+    objects:
+    - type: 3
+    - type: 0
+    - type: 2
+    - type: 5
+  - floorName: Floor 3
+    floorSprite: {fileID: 21300000, guid: f447f92aed94d4c40ba00df13f1cdb29, type: 3}
+    isLeftFloor: 1
+    objects:
+    - type: 3
+    - type: 2
+    - type: 0
+    - type: 0
+  - floorName: Floor 4
+    floorSprite: {fileID: 21300000, guid: f447f92aed94d4c40ba00df13f1cdb29, type: 3}
+    isLeftFloor: 1
+    objects: []
+  - floorName: Floor 5
+    floorSprite: {fileID: 21300000, guid: f447f92aed94d4c40ba00df13f1cdb29, type: 3}
+    isLeftFloor: 0
+    objects:
+    - type: 3
+    - type: 2
+    - type: 4
+    - type: 0
+  - floorName: Floor 6
+    floorSprite: {fileID: 21300000, guid: f447f92aed94d4c40ba00df13f1cdb29, type: 3}
+    isLeftFloor: 0
+    objects:
+    - type: 4
+    - type: 2
+    - type: 5
+    - type: 5
+  - floorName: Floor 7
+    floorSprite: {fileID: 21300000, guid: f447f92aed94d4c40ba00df13f1cdb29, type: 3}
+    isLeftFloor: 0
+    objects: []
